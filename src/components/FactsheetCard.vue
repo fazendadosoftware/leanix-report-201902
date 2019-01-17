@@ -2,7 +2,7 @@
   <div class="card shadow">
     <div class="title">Title</div>
     <div class="title">Chart</div>
-    <line-chart :chartdata="chartdata" :chartoptions="chartoptions"/>
+    <line-chart :chart-data="chartData" :options="chartOptions"/>
   </div>
 </template>
 
@@ -13,7 +13,7 @@ export default {
   components: { LineChart },
   data () {
     return {
-      chartdata: {
+      chartData: {
         labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
         datasets: [
           {
@@ -23,7 +23,7 @@ export default {
           }
         ]
       },
-      chartoptions: {
+      chartOptions: {
         responsive: true,
         maintainAspectRatio: false
       }
