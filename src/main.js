@@ -3,6 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import LeanixVuePlugin from './plugins/LeanixVuePlugin'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faFileDownload)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(LeanixVuePlugin)
 

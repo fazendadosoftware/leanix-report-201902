@@ -11,7 +11,6 @@ export default {
   name: 'App',
   components: { FactsheetCard },
   mounted () {
-    this.fillData()
     this.$lx.init()
       .then(setup => {
         this.$lx.ready({})

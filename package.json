@@ -12,10 +12,15 @@
     "upload": "cross-env UPLOAD_TO_LEANIX=true npm run build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.12",
+    "@fortawesome/free-solid-svg-icons": "^5.6.3",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
     "@leanix/reporting": "^0.3.0",
     "chart.js": "^2.7.3",
     "chartjs-plugin-labels": "^1.1.0",
+    "i": "^0.3.6",
     "jquery": "^3.3.1",
+    "npm": "^6.5.0",
     "vue": "^2.5.2",
     "vue-chartjs": "^3.4.0"
   },
